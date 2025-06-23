@@ -6,7 +6,7 @@ This template uses a customised class file (```cv.cls```) to build a clean and s
   <img src="assets/cv_example.png" alt="CV Example" width="400"/>
 </div>
 
-## :star:t Quick Start
+## :dash: Quick Start
 
 1. Upload `cv.cls` into your Overleaf project or local LaTeX folder.  
 2. Use `\documentclass{cv}` at the beginning of your `.tex` document.  
@@ -84,3 +84,7 @@ Set document title (top of page):
   ```latex
   \setTitle{Your CV Title} % Optional — defaults to "Curriculum Vitae"
   ```
+
+---
+
+**Author: [Max KIEFFER](https://github.com/mkiefferus)**
