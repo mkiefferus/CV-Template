@@ -1,0 +1,105 @@
+\documentclass{cv}
+
+\setLocation{London}
+
+\begin{document}
+
+\addPhoto
+\addDate
+
+\sectionStart{Personal Details}
+    \entry{Name}{Alice THORNTON}
+    \entry{Date of Birth}{15/09/1998}
+    \entry{Nationality}{British}
+    \entry{Address}{12 Kingsway \\ WC2B 6NH London, UK}
+    \entry{E-mail}{alice.thornton.dev@mail.com}
+    \entry{Phone}{+44 7946 125 998}
+    \entry{Github}{\url{https://github.com/alicet-code}}
+\sectionEnd
+
+\sectionStart{Education}
+    \entryParagraph
+        {09/2023 -- present}
+        {Imperial College London}
+        {\textbf{MSc Artificial Intelligence}}
+        {
+            Core: Machine Learning, Computer Vision \\ 
+            Relevant modules: Deep Reinforcement Learning, Generative Models
+        }
+    \entryParagraph
+        {01/2025 -- present}
+        {MIT CSAIL}
+        {Cambridge, MA}
+        {
+            Visiting researcher in the Interactive Robotics Group with Prof. Julie Shah
+        }
+    \entryParagraph
+        {09/2017 -- 06/2021}
+        {University of Edinburgh}
+        {\textbf{BEng Computer Engineering}}
+        {
+            Core: Embedded Systems, Control Theory
+        }
+\sectionEnd
+
+\sectionStart{Experience}
+    \entryList
+        {01/2025 -- present}
+        {Master’s Thesis}
+        {Multi-Agent Coordination for Urban Drone Delivery}
+        {
+            \item{Implementation of a decentralised planning system}
+            \item{Simulation and validation using ROS2 and Gazebo}
+            \item{Optimisation with graph neural networks}
+        }
+    \entryList
+        {06/2024 -- 09/2024}
+        {Summer Research Project at OpenAI}
+        {Natural Language Control Interfaces}
+        {
+            \item{Trained Transformer-based models for robotic command interpretation}
+            \item{Built interactive Python web app for testing control logic}
+        }
+    \entryList
+        {06/2022 -- 08/2022}
+        {Internship}
+        {Software Engineering Intern at DeepMind - London}
+        {
+            \item{Built internal tool for data visualisation using Dash}
+            \item{Contributed to reinforcement learning environment development}
+        }
+    \entryList
+        {03/2021 -- 06/2021}
+        {Bachelor Thesis}
+        {Edge-Based Fault Detection in Industrial Motors}
+        {
+            \item{Collected and labelled vibration and current datasets}
+            \item{Implemented fault classifiers using SVMs and CNNs}
+        }
+\sectionEnd
+
+\sectionStart{Publications}
+    \entryParagraph
+        {2025}
+        {Thornton, A., Shah, J.}
+        {\textbf{Learning Decentralised Policies for Multi-Agent Drone Coordination in Urban Environments}}
+        {
+            Proceedings of the IEEE International Conference on Robotics and Automation (ICRA), 2025
+        }
+\sectionEnd
+
+\splitParagraph[0.4]
+    {Languages}
+    {Programming Languages}
+    {
+        \entry{English}{Native}
+        \entry{Spanish}{B2}
+        \entry{German}{B1}
+    }
+    {
+        \entry{Python}{Extensive experience (academia, internships)}
+        \entry{C++}{Intermediate (control software, simulation)}
+        \entry{JavaScript}{Frontend tools and dashboards}
+    }
+
+\end{document}
