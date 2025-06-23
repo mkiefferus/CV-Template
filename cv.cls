@@ -18,7 +18,7 @@
 \linespread{1.1}
 
 % Section formatting
-\newcommand{\sectionSpace}{0.6em}
+\newcommand{\sectionSpace}{0.4em}
 \newcommand{\paragraphGap}{\noalign{\vskip 0.5em}}
 \newcommand{\leftColumnWidth}{0.25\textwidth}
 \newcommand{\rightColumnWidth}{0.725\textwidth}
@@ -57,7 +57,7 @@
 }
 
 % Helper functions
-\newcommand{\entry}[2]{#1 & \parbox[t]{\rightColumnWidth}{#2} \\}
+\newcommand{\entry}[2]{#1 & \parbox[t]{\rightColumnWidth}{#2\vspace{0.3\baselineskip}} \\}
 \renewcommand{\item}[1]{- $\:$ & #1 \\}
 
 % Paragraph with plain text
