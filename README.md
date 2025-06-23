@@ -1,6 +1,4 @@
-# Simple CV LaTeX Template - Usage Guide
-
-This template uses a customised class file (```cv.cls```) to build a clean and structured CV.
+# Simple LaTeX CV Template - Usage Guide
 
 <div align="center">
   <img src="assets/cv_example.png" alt="CV Example" width="400"/>
